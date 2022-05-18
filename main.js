@@ -17,8 +17,9 @@ let count = 0;
 // }
 
 let interval = setInterval(() => {
-  $(spanTags.get(count)).addClass("animate__animated animate__bounce animate__infinite show");
+  $(spanTags.get(count)).addClass("show animate__animated animate__rollIn");
 
+  // "animate__animated animate__bounce animate__infinite show"
   count++;
   if(count >= spanTags.length){
     clearInterval(interval);

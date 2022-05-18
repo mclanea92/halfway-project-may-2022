@@ -1,9 +1,12 @@
 body{
   background: aquamarine;
+  font-family: American Typewriter, serif;
+  
 }
 
 h1 > span{
   display:none;
+  font-size: 400px;
 }
 
 h1 > span.show{
